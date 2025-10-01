@@ -15,7 +15,7 @@ exports.Makemove = (game, position,socket) => {
         const res = game.Board.move(position);
 
 
-
+        console.log(res)
 
 
 
